@@ -1,5 +1,11 @@
-# wrangler.toml for Pages only
 name = "bankmen-verifier"
+type = "javascript"
 
-# Where your built/static files live
-pages_build_output_dir = "public"
+[build]
+command = "npm install --omit=optional && npm run build"
+[build.upload]
+dir = "public"
+
+# Only for Pages: remove `main` and `node_compat`
+# main = "src/index.js"   <-- REMOVE THIS
+# node_compat = true      <-- REMOVE THIS
