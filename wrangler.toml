@@ -1,4 +1,3 @@
 name = "bankmen-verifier"
-
-# 👇 Cloudflare Pages needs this key to know where to look for files
-pages_build_output_dir = "public"
+main = "src/index.js"
+compatibility_date = "2025-10-31"
