@@ -1,7 +1,8 @@
 name = "bankmen-verifier"
-compatibility_date = "2025-10-31"
+type = "javascript"
+
+# 👇 This is the key Cloudflare Pages is looking for
+pages_build_output_dir = "public"
 
 [build]
 command = "npm install --omit=optional && npm run build"
-
-pages_build_output_dir = "public"
