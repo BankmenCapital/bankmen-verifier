@@ -1,8 +1,4 @@
 name = "bankmen-verifier"
-type = "javascript"
 
-# 👇 This is the key Cloudflare Pages is looking for
+# 👇 Cloudflare Pages needs this key to know where to look for files
 pages_build_output_dir = "public"
-
-[build]
-command = "npm install --omit=optional && npm run build"
