@@ -1,3 +1,4 @@
 name = "bankmen-verifier"
 main = "src/index.js"
 compatibility_date = "2025-10-31"
+node_compat = true
