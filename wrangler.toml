@@ -3,3 +3,6 @@ main = "src/index.js"
 compatibility_date = "2025-10-31"
 node_compat = true
 
+[build]
+command = "npm install --omit=optional && npm run deploy"
+upload = "public"
