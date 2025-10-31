@@ -1,7 +1,5 @@
+# wrangler.toml for Pages only
 name = "bankmen-verifier"
-main = "src/index.js"
-compatibility_date = "2025-10-31"
-node_compat = true
 
-# This tells Pages where your built/static files live
+# Where your built/static files live
 pages_build_output_dir = "public"
