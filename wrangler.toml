@@ -1,31 +1,6 @@
-# -----------------------------
-# Project identity
-# -----------------------------
-name = "bankmen-verifier"      # Worker name
-main = "src/index.js"          # Entry point of your Worker
-type = "javascript"            # Module type
-
-# -----------------------------
-# Compatibility
-# -----------------------------
-compatibility_date = "2025-10-31"  # Required by Cloudflare to lock API behavior
-
-# -----------------------------
-# Cloudflare account info
-# -----------------------------
-account_id = "Workers Builds - 2025-10-31 16:07"      # Replace with your actual account ID
-workers_dev = true                  # Deploy to workers.dev subdomain
-route = ""                          # Optional: leave blank for dev
-zone_id = ""                        # Optional: leave blank for dev
-
-# -----------------------------
-# Node.js support (v4)
-# -----------------------------
-[experimental]
-node_compat = true                  # Allows Node modules in Workers (v4 Wrangler)
-
-# -----------------------------
-# Optional: local dev/testing
-# -----------------------------
-[miniflare]
-modules = true                      # Enable ES modules for Miniflare local testing
+name = "bankmen-verifier"
+type = "javascript"
+main = "src/index.js"
+compatibility_date = "2025-10-31"
+# enable node builtins (required by some npm packages). Keep it true for your Worker build.
+node_compat = true
