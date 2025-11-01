@@ -1,6 +1,4 @@
 name = "bankmen-verifier"
-type = "javascript"
 main = "src/index.js"
 compatibility_date = "2025-10-31"
-# enable node builtins (required by some npm packages). Keep it true for your Worker build.
-node_compat = true
+nodejs_compat = true
