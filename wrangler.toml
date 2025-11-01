@@ -1,9 +1,4 @@
 name = "bankmen-verifier"
 main = "src/index.js"
 compatibility_date = "2025-10-31"
-
-[build]
-command = "npm install"
-
-[build.upload]
-format = "service-worker"
+nodejs_compat = true
